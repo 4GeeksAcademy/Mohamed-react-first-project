@@ -72,9 +72,17 @@
     text-align: center;
   }
     
+.collapse{
 
-  
-  
-  
-
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 5px;
  
+  
+}
+  
+.navbar{
+  background-color: #006A71;
+ 
+}
