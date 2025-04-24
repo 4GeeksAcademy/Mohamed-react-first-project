@@ -9,3 +9,72 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+ 
+
+  /* my code */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #48A6A7;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  .pic-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: #006A71 solid 2px;
+    margin: 20px;
+  }
+  .profile-picture{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+  }
+  .hero-tittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    
+  }
+  .stack-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+    
+  }
+  .stack-tittle{
+    color: #006A71;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .card-image{
+    height: 50px;
+    width: 50px;
+  }
+  .card-container{
+    background-color: #006A71;
+    border-radius: 10px;
+    border: #F2EFE7 solid 2px;
+   width: 150px;
+   height: 75px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+    
+
+  
+  
+  
+
+ 

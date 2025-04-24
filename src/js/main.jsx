@@ -12,9 +12,18 @@ import '../styles/index.css'
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 
+import Hero from './components/Hero';
+import Stack from './components/Stack';
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode> 
-    <Navbar/>
-    <Home/>
+    
+
+   
+
+   <Navbar/>
+   <Hero />
+   <Stack/>
+   
   </React.StrictMode>,
 )
