@@ -101,14 +101,24 @@
 
 .card-project{
   background-color: white;
-
+  border-radius: 10px;
   border: #006A71 solid 2px;
   width: 325px; 
-  height: 500px;    
-    
+  height: 500px;   
+  text-align: center; 
+  margin: 10px;
+  color: #48A6A7;
 }
 .project-image{
-  height: 240px;
-  width: 325px;
+  height: 250px;
+  width: 320px;
+  /* border-bottom: #006A71 solid 2px; */
+  border-radius: 10px;
+  
  
+}
+.projects-container{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
 }
