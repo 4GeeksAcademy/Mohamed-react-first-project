@@ -9,20 +9,18 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-
 import Hero from './components/Hero';
 import Stack from './components/Stack';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode> 
     
    <Navbar/>
    <Hero />
-   <Stack/>
+   {/* <Stack/> */}
    <Projects/>
    <Footer/>
    
