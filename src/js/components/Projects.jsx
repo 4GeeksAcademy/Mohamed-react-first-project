@@ -10,9 +10,11 @@ const Projects = () => {
   <div className="card-body">
     <h5 className="card-title">Random Card Generator</h5>
     
-    <a href="#" className="btn btn-primary">Project Repository</a>
+    <a href="https://github.com/4GeeksAcademy/Random-Card-Generator-project" className="btn btn-primary">Project Repository</a>
   </div>
 </div>
+
+
     )
 }
 

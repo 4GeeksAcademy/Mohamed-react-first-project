@@ -2,13 +2,15 @@
   /* my code */
   .hero-section {
     display: flex;
+    /* margin: auto; */
+    /* width: 95%; */
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     background-color: #48A6A7;
     color: white;
     text-align: center;
-    padding: 4rem 0;
+    padding: 4rem ;
   }
   .pic-container{
     width: 150px;
