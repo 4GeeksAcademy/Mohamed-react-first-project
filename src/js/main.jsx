@@ -7,6 +7,7 @@ import "bootstrap"
 
 // index.css'
 import '../styles/index.css'
+import card from "../img/card.png";
 
 // components
 import Navbar from './components/Navbar';
@@ -20,8 +21,29 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
    <Navbar/>
    <Hero />
-   {/* <Stack/> */}
-   <Projects/>
+  
+   <div className="projects-container">
+      <Projects
+        image={card}
+        title="Random Card Generator"
+        projectRepo="https://github.com/4GeeksAcademy/Random-Card-Generator-project"
+      />
+      <Projects
+        image={card}
+        title="To-Do List App"
+        projectRepo="https://github.com/4GeeksAcademy/To-Do-List-App"
+      />
+      <Projects
+        image={card}
+        title="Weather App"
+        projectRepo="https://github.com/4GeeksAcademy/Weather-App"
+      />
+      <Projects
+        image={card}
+        title="E-Commerce Website"
+        projectRepo="https://github.com/4GeeksAcademy/E-Commerce-Website"
+      />
+    </div>
    <Footer/>
    
   </React.StrictMode>,

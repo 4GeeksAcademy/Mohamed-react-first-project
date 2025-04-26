@@ -1,16 +1,16 @@
 import React from 'react';
-import card from "../../img/card.png";
 
 
 
-const Projects = () => {
+
+const Projects = ({image , title , projectRepo}) => {
     return(
         <div className="card" style={{width: "18rem"}}>
-  <img src={card} className="card-img-top" alt="..."/>
+  <img src={image} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <h5 className="card-title">Random Card Generator</h5>
+    <h5 className="card-title">{title}</h5>
     
-    <a href="https://github.com/4GeeksAcademy/Random-Card-Generator-project" className="btn btn-primary">Project Repository</a>
+    <a href={projectRepo} className="btn btn-primary">Project Repository</a>
   </div>
 </div>
 

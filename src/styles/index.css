@@ -110,3 +110,10 @@ font-size: 18px;
   text-align: center; /* Centers the button and other inline elements */
 }
 
+.projects-container {
+  display: flex; /* Use Flexbox to arrange items in a row */
+  flex-wrap: wrap; /* Allow wrapping to the next row if needed */
+  gap: 1rem; /* Add spacing between cards */
+  justify-content: center; /* Center the cards horizontally */
+}
+
