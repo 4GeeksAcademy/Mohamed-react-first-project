@@ -70,7 +70,7 @@
 
 
 .tech{
-color:#48A6A7;
+color:black;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 500;
 font-size: 18px;  
@@ -96,8 +96,6 @@ font-size: 18px;
   display: inline-block; /* Ensures the button respects text alignment */
   justify-content: center;
   align-items: center;
-
-  
   color: white;
   border: none;
   border-radius: 5px;
