@@ -8,7 +8,9 @@ import "bootstrap"
 // index.css'
 import '../styles/index.css'
 import card from "../img/card.png";
-import card1 from "../img/excuse.png";
+import excuse from "../img/excuse.png";
+import conditional from "../img/conditional-card.png";
+import post from "../img/instegram-post.png";
 
 // components
 import Navbar from './components/Navbar';
@@ -30,25 +32,21 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         projectRepo="https://github.com/4GeeksAcademy/Random-Card-Generator-project"
       />
       <Projects
-        image={card1}
+        image={excuse}
         title="Random Excuse Generator"
         projectRepo="https://github.com/4GeeksAcademy/Mohamed-excuse-generator"
       />
       <Projects
-        image={card}
-        title="Weather App"
+        image={conditional}
+        title="Conditional Card"
         projectRepo="https://github.com/4GeeksAcademy/Weather-App"
       />
       <Projects
-        image={card}
-        title="E-Commerce Website"
+        image={post}
+        title="Instagram Post"
         projectRepo="https://github.com/4GeeksAcademy/E-Commerce-Website"
       />
-      <Projects
-        image={card}
-        title="E-Commerce Website"
-        projectRepo="https://github.com/4GeeksAcademy/E-Commerce-Website"
-      />
+      
     </div>
    <Footer/>
    
