@@ -109,9 +109,57 @@ font-size: 18px;
 }
 
 .projects-container {
-  display: flex; /* Use Flexbox to arrange items in a row */
-  flex-wrap: wrap; /* Allow wrapping to the next row if needed */
-  gap: 1rem; /* Add spacing between cards */
-  justify-content: center; /* Center the cards horizontally */
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+
+
+
+
+/* hello */
+
+.technologies-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.technologies-heading {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5rem;
+  color: #006A71;
+  margin-bottom: 2rem;
+}
+
+.technologies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.technology-card {
+  background: #9ACBD0;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+  
+}
+.technology-image {
+  width: 100px;
+  height: 100px;
+  /* object-fit: contain; */
+  margin-bottom: 1rem;
+}
+
+.technology-name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
 }
 

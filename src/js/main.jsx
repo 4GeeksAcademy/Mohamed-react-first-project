@@ -15,15 +15,19 @@ import post from "../img/instegram-post.png";
 // components
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-
+import Stack from './components/Stack';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Technologies from './components/Technologies';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode> 
     
    <Navbar/>
    <Hero />
+   {/* <Stack/> */}
+    <Technologies />
+   
   
    <div className="projects-container">
       <Projects
