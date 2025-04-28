@@ -69,7 +69,7 @@
   font-size: 16px;
 }
 .btn:hover {
-  background-color: #006A71; /* Change this to your desired hover color */
+  background-color: #006A71; 
   color: white;;
 }
 .card-body {
