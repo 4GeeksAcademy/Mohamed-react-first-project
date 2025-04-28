@@ -14,23 +14,24 @@ const Technologies = () => {
     {
       name: "JavaScript",
       img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    }, 
+    {
+      name: "Bootstrap",
+      img: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
     },
     {
       name: "React",
       img: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     },
-    {
-      name: "Git/GitHub",
-      img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
-    },
+    ,
     {
       name: "VS Code",
       img: "https://code.visualstudio.com/assets/images/code-stable.png",
     },
-    {
-      name: "Bootstrap",
-      img: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-    },
+   {
+      name: "Git/GitHub",
+      img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    }
   ];
 
   return (

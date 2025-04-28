@@ -25,23 +25,8 @@
   .hero-tittle{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
-    
   }
-  .stack-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-  text-align: center;
-    
-  }
-  .stack-tittle{
-    color: #006A71;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
+ 
 .collapse{
   display: flex;
   flex-direction: row;
@@ -51,7 +36,6 @@
   
 .navbar {
   background-color: #006A71;
- 
 }
 .footer-section{
   background-color: #006A71;
@@ -64,8 +48,6 @@
   font-size: 14px;    
 }
 
-
-
 .card-title{
   color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -75,11 +57,9 @@
 .card{
   border-radius: 10px;
   margin: 20px;
-  
 }
 .btn{
-  background-color: #006A71;
-  display: inline-block; 
+  background-color: #48A6A7;
   justify-content: center;
   align-items: center;
   color: white;
@@ -87,9 +67,10 @@
   border-radius: 5px;
   width: 65%;
   font-size: 16px;
-  
-  /* cursor: pointer;     */
-  
+}
+.btn:hover {
+  background-color: #006A71; /* Change this to your desired hover color */
+  color: white;;
 }
 .card-body {
   text-align: center; 
@@ -124,16 +105,13 @@
 .technology-card {
   background: #9ACBD0;
   border-radius: 10px;
-
   padding: 1rem;
   width: 150px;
   text-align: center;
-  
 }
 .technology-image {
   width: 100px;
   height: 100px;
-
   margin-bottom: 1rem;
 }
 
