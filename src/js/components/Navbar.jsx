@@ -13,7 +13,7 @@ return (
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a style={{color: "white"}} class="nav-link active" aria-current="page" href="#">Stacks</a>
+          <a style={{color: "white"}} class="nav-link active" aria-current="page" href="#">Technologies</a>
         </li>
         <li class="nav-item">
           <a  style={{color: "white"}} class="nav-link" href="#">Projects</a>

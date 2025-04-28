@@ -41,11 +41,11 @@
   background-color: #006A71;
   color: white;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   margin-top: 2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 400;
-  font-size: 14px;    
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .card-title{
@@ -85,7 +85,7 @@
 .technologies-container {
   text-align: center;
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: #F2EFE7;
 }
 
 .technologies-heading {
@@ -97,7 +97,6 @@
 
 .technologies-grid {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
 }
@@ -118,7 +117,21 @@
 .technology-name {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
-  color: white;
+  color: black;
   font-weight: 600;
 }
+.card-container{
+  background-color: #F2EFE7;
+}
+
+.footer-section a {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+
+  
+}
+
+
 
